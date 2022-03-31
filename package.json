@@ -1,0 +1,25 @@
+{
+  "name": "AWS-RDS-Node-API",
+  "version": "1.0.0",
+  "description": "Node-api using ExpressJS, Sequalize ORM, AWS RDS Postgres, ECS, ECR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandima Samaraweera",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
