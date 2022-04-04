@@ -101,6 +101,14 @@ const dotenv = require("dotenv");
 #### **Database**
 
 Project database created in AWS RDS.
+![rds-database-instance](https://user-images.githubusercontent.com/6191308/161145240-7a19fd98-2f5e-43f8-923f-b18f43608d8d.png)
+
+To Manage the database from local machine, added following to the Security Group Inbound Rules
+
+![Security Group Inbound](https://user-images.githubusercontent.com/6191308/161146161-97b031de-9ca7-4c1a-b186-601c55c75f7f.png)
+
+PGAdmin
+![pgAdmin](https://user-images.githubusercontent.com/6191308/161147653-4f1eecd1-0008-4f17-a302-8de364701503.png)
 
 
 ### **Project Setup**
@@ -111,6 +119,11 @@ Run
 npm init
 npm install body-parser, cors, dotenv, express, jsonwebtoken, method-override, pg, pg-hstore, sequelize, shortid, valid-url
 ```
+
+Package.json
+
+![package json](https://user-images.githubusercontent.com/6191308/161147996-e65cdfbb-9da0-4346-9f8c-63e22087e7e3.png)
+
 <br>
 <br>
 
@@ -240,8 +253,18 @@ App is deployed and configured in `Heroku` cloud server. You can access through 
 ![Heroku - get notes](https://user-images.githubusercontent.com/6191308/141882941-11d271e9-639a-4877-92a4-aa4900950ec6.png)
 
 
-## **Deployment - Staging**
-App is deployed and configured in `AWS Elasticbeanstalk` cloud server. You can access through `Postman`.
+## **Deployment - Production**
+App is deployed and configured in `AWS ECS Fargate` cloud server. 
+
+AWS ECS Cluster - cssamlabs 
+![AWS ECS Cluster cssamlabs](https://user-images.githubusercontent.com/6191308/161148706-827f36d2-e799-45a4-bd4d-b49f21833720.png)
+
+AWS ECS Service - cssamlabs-service
+![ECS Service cssamlabs-service](https://user-images.githubusercontent.com/6191308/161149566-9e5b996f-6fc1-4953-b23f-9d74dcf045bb.png)
+
+
+
+You can access through `Postman`.
 
 ![EBS - register](https://user-images.githubusercontent.com/6191308/143487559-33a0b190-a1d5-48b3-923e-6556837c7313.png)
 
