@@ -1,10 +1,10 @@
-## Web API
+## AWS RDS Nodejs API
 
-# **A NodeJS project of WebAPI**
+# **A NodeJS project of API**
 
 ## **Project Requirement**
 
-A simple RESTful Web API with Node/Express uses AWS-RDS Postges. 
+A simple RESTful Web API with Node/Express uses AWS-RDS Postgres, AWS-Fargate  
 
 ```json
 {
