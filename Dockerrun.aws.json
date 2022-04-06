@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion":"1",
+    "Image":{
+        "Name":"986388481402.dkr.ecr.us-east-1.amazonaws.com/aws-rds-node-api:latest",
+        "Update": "true"
+    },
+
+    "Ports":[
+        {
+            "ContainerPort":3040,
+            "HostPort":80
+        }
+    ]
+}
