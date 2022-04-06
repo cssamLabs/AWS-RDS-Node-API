@@ -121,8 +121,7 @@ npm install body-parser, cors, dotenv, express, jsonwebtoken, method-override, p
 ```
 
 Package.json
-
-![package json](https://user-images.githubusercontent.com/6191308/161147996-e65cdfbb-9da0-4346-9f8c-63e22087e7e3.png)
+![Package json](https://user-images.githubusercontent.com/6191308/161906482-43b38068-afcf-45a3-8d7e-efa340262363.png)
 
 <br>
 <br>
@@ -235,49 +234,38 @@ Here are screenshots of `Postman` testing for the project.
 
 ![user_login](https://user-images.githubusercontent.com/6191308/141512910-09bf6b36-6a04-49db-a956-709dd2e0f11c.png)
 
-![create_note](https://user-images.githubusercontent.com/6191308/141512937-697ddf74-ebdb-4baa-944f-e30ebc668434.png)
+Get All - localhost
+![Test - Get All](https://user-images.githubusercontent.com/6191308/161903909-46738be4-f5d3-401b-abf1-3d2ec48679d1.png)
 
-![list_notes](https://user-images.githubusercontent.com/6191308/141512947-d550e2a8-99cb-4c51-905b-85a1efdfe0ea.png)
+Create - localhost
+![Test - Create](https://user-images.githubusercontent.com/6191308/161903985-cf4b50b0-a746-4a68-a6d8-1a5d07986fdf.png)
 
-## **Deployment - Staging**
+Update - localhost
+![Test - update](https://user-images.githubusercontent.com/6191308/161903146-66f1ca75-9d1f-4d3f-a437-7bb9faefc9fb.png)
 
-App is deployed and configured in `Heroku` cloud server. You can access through `Postman`.
-![Heroku - regiter](https://user-images.githubusercontent.com/6191308/141882861-3ff695c5-9b85-4d66-9b68-b1f4952b869a.png)
-
-![Heroku- add token](https://user-images.githubusercontent.com/6191308/141882921-1d94b66a-bf85-4af9-bcb7-8553f29d7dde.png)
-
-![Heroku - login](https://user-images.githubusercontent.com/6191308/141882868-26307fe1-bc12-4a25-9d05-7653ccc0df01.png)
-
-![Heroku - create note](https://user-images.githubusercontent.com/6191308/141882897-b63c683b-a59a-4278-b606-63ae2e637022.png)
-
-![Heroku - get notes](https://user-images.githubusercontent.com/6191308/141882941-11d271e9-639a-4877-92a4-aa4900950ec6.png)
+Delete - localhost
+![Test - Delete](https://user-images.githubusercontent.com/6191308/161903232-bcafc306-0549-4ffd-b539-61d2cbcf9e7c.png)
 
 
 ## **Deployment - Production**
 App is deployed and configured in `AWS ECS Fargate` cloud server. 
 
-AWS ECS Cluster - cssamlabs 
-![AWS ECS Cluster cssamlabs](https://user-images.githubusercontent.com/6191308/161148706-827f36d2-e799-45a4-bd4d-b49f21833720.png)
+AWS ECS Task Definition
+![Task Definition](https://user-images.githubusercontent.com/6191308/161904673-d57092ff-2a3d-4b29-a5ea-704b87310eb1.png)
 
-AWS ECS Service - cssamlabs-service
-![ECS Service cssamlabs-service](https://user-images.githubusercontent.com/6191308/161149566-9e5b996f-6fc1-4953-b23f-9d74dcf045bb.png)
+AWS ECS Task
+![Task](https://user-images.githubusercontent.com/6191308/161904775-c8dc94f0-4be2-465c-9bb7-4bcdcfa00d17.png)
+
+AWS Fargate Cluster 
+![Fargate Cluster](https://user-images.githubusercontent.com/6191308/161905322-39045726-d7a7-4b79-8e4d-b0bdb468bc06.png)
+
+AWS Fargate Service
+![Container Service](https://user-images.githubusercontent.com/6191308/161905226-4c49848b-4389-47d0-94a1-bf2e4c8c773f.png)
 
 
-
-You can access through `Postman`.
-
-![EBS - register](https://user-images.githubusercontent.com/6191308/143487559-33a0b190-a1d5-48b3-923e-6556837c7313.png)
-
-![EBS - login](https://user-images.githubusercontent.com/6191308/143487576-3529e373-6f3c-4915-a26c-40f2ca6a12b8.png)
-
-![EBS - create note](https://user-images.githubusercontent.com/6191308/143487588-1923a78d-bee7-4f95-87b2-eba5424a434e.png)
-
-![EBS - create note](https://user-images.githubusercontent.com/6191308/143487611-fa709c31-74d4-451e-8c78-b90835a5c8f4.png)
-
-![EBS - Env](https://user-images.githubusercontent.com/6191308/143487733-c759ee09-eb56-4abb-8f63-7f00ee825c00.png)
-
-![AWS CodePipeline](https://user-images.githubusercontent.com/6191308/143487840-37a2e668-2783-449f-8b70-039c43f6c209.png)
-
+`Postman`.
+Get All - prod
+![Fargate - Get All](https://user-images.githubusercontent.com/6191308/161905930-1b1fe40d-d3ef-4930-b191-7259400995bb.png)
 
 
 
