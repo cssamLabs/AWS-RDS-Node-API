@@ -276,6 +276,9 @@ AWS Fargate Cluster
 AWS Fargate Service
 ![Container Service](https://user-images.githubusercontent.com/6191308/161905226-4c49848b-4389-47d0-94a1-bf2e4c8c773f.png)
 
+AWS Application Load Balancer
+
+![ALB](https://user-images.githubusercontent.com/6191308/162275558-4f5ab6ee-9e8f-431a-b024-668080f49ff3.png)
 
 `Postman`.
 Get All - prod
