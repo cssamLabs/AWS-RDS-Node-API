@@ -187,7 +187,7 @@ Later we can allocate trusted urls in `ALLOW_LIST`.
 
 Routes of the app are implemented in `auth,route.js` and `urlshort.route.js`
 
-```
+<!--```
 router.post("/register", auth_controller.register);
 
 router.post("/login", auth_controller.login);
@@ -205,15 +205,29 @@ router.put("/urlshort/:id", urlshort_controller.updateUrlshort);
 router.delete("/urlshort/:id",  urlshort_controller.deleteUrlshort);
 
 ```
+-->
+```
+router.get("/urlshort/", urlshort_controller.getUrlshortList);
 
+router.get("/urlshort/:id",  urlshort_controller.getUrlshort);
+
+router.post("/urlshort", urlshort_controller.createUrlshort);
+
+router.put("/urlshort/:id", urlshort_controller.updateUrlshort);
+
+router.delete("/urlshort/:id",  urlshort_controller.deleteUrlshort);
+
+```
 <br>
 <br>
 
 #### **Controllers**
 
-There are controllers implemented in `controller` folder of the project; `auth.controller.js` and `note.controller.js`.
+There are controllers implemented in `controller` folder of the project; `auth.controller.js` and `nurlshort.controller.js`.
 
+<!--
 In `auth.controller` many functions implemented related to app security and user session management. Such as `register`, `login`, `verifyToken`, `getToken`, `currentUser`, and `logout`.
+-->
 
 In `urlshort.controller`; functions implemented to facilitated list, create, and get notes respectively `getUrlshortList`, `createUrlshort`,and `getUrlshort`.  
 In both controller `express-validator` has used to verify `request` data and handles error returns.
@@ -229,11 +243,11 @@ There are many functions implemented for user management in the `services` folde
 ### **Testing**
 
 Here are screenshots of `Postman` testing for the project.
-
+<!--
 ![user_register](https://user-images.githubusercontent.com/6191308/141512900-d3aba10c-1949-41f8-ab9a-135a7e6e51e4.png)
 
 ![user_login](https://user-images.githubusercontent.com/6191308/141512910-09bf6b36-6a04-49db-a956-709dd2e0f11c.png)
-
+-->
 Get All - localhost
 ![Test - Get All](https://user-images.githubusercontent.com/6191308/161903909-46738be4-f5d3-401b-abf1-3d2ec48679d1.png)
 
