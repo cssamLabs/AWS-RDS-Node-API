@@ -270,15 +270,10 @@ AWS ECS Task Definition
 AWS ECS Task
 ![Task](https://user-images.githubusercontent.com/6191308/161904775-c8dc94f0-4be2-465c-9bb7-4bcdcfa00d17.png)
 
-AWS Fargate Cluster 
-![Fargate Cluster](https://user-images.githubusercontent.com/6191308/161905322-39045726-d7a7-4b79-8e4d-b0bdb468bc06.png)
+AWS Fargate Service and Application Load Balancer Configuration
+https://github.com/cssamLabs/AWS-ALB-Fargate/blob/main/README.md 
 
-AWS Fargate Service
-![Container Service](https://user-images.githubusercontent.com/6191308/161905226-4c49848b-4389-47d0-94a1-bf2e4c8c773f.png)
 
-AWS Application Load Balancer
-
-![ALB](https://user-images.githubusercontent.com/6191308/162275558-4f5ab6ee-9e8f-431a-b024-668080f49ff3.png)
 
 `Postman`.
 Get All - prod
