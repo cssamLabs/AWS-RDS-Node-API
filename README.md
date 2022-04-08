@@ -1,4 +1,4 @@
-## AWS RDS Nodejs API
+## Nodejs API
 
 # **A NodeJS project of API**
 
@@ -67,7 +67,7 @@ Download and install Node.js from https://nodejs.org
 
 ### **Project Repo**
 
- https://github.com/cssam/aws-rds-node-api  
+ https://github.com/cssam/Lab-Node-API  
 <br>
 
 ## **Code Description**
