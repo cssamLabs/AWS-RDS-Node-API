@@ -260,6 +260,9 @@ Update - localhost
 Delete - localhost
 ![Test - Delete](https://user-images.githubusercontent.com/6191308/161903232-bcafc306-0549-4ffd-b539-61d2cbcf9e7c.png)
 
+## ** Cloud Configuration **
+AWS Fargate Service and Application Load Balancer Configuration
+![AWS ALB Route53 Configuration](https://github.com/cssamLabs/AWS-ALB-Fargate/blob/main/README.md )
 
 ## **Deployment - Production**
 App is deployed and configured in `AWS ECS Fargate` cloud server. 
@@ -270,8 +273,7 @@ AWS ECS Task Definition
 AWS ECS Task
 ![Task](https://user-images.githubusercontent.com/6191308/161904775-c8dc94f0-4be2-465c-9bb7-4bcdcfa00d17.png)
 
-AWS Fargate Service and Application Load Balancer Configuration
-![AWS ALB Route53 COnfiguration](https://github.com/cssamLabs/AWS-ALB-Fargate/blob/main/README.md )
+
 
 
 
