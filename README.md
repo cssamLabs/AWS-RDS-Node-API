@@ -274,13 +274,12 @@ AWS ECS Task
 ![Task](https://user-images.githubusercontent.com/6191308/161904775-c8dc94f0-4be2-465c-9bb7-4bcdcfa00d17.png)
 
 
-
-
-
-
 `Postman`.
 Get All - prod
 ![Fargate - Get All](https://user-images.githubusercontent.com/6191308/161905930-1b1fe40d-d3ef-4930-b191-7259400995bb.png)
+
+Load Balancer
+![Load Balancer - getAll](https://user-images.githubusercontent.com/6191308/162512313-d6df15f3-5ce9-450e-9444-05928b20d377.png)
 
 
 
