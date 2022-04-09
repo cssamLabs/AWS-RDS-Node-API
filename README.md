@@ -167,13 +167,7 @@ AWS Fargate Service and Application Load Balancer Configuration
 
 ## **Deployment - Production**
 App is deployed and configured in `AWS ECS Fargate` cloud server. 
-
-AWS ECS Task Definition
-![Task Definition](https://user-images.githubusercontent.com/6191308/161904673-d57092ff-2a3d-4b29-a5ea-704b87310eb1.png)
-
-AWS ECS Task
-![Task](https://user-images.githubusercontent.com/6191308/161904775-c8dc94f0-4be2-465c-9bb7-4bcdcfa00d17.png)
-
+[AWS Fargate Configuration] (https://github.com/cssamLabs/AWS-Fargate-Configuration/blob/main/README.md)
 
 `Postman`.
 Get All - prod
