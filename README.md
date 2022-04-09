@@ -167,7 +167,7 @@ AWS Fargate Service and Application Load Balancer Configuration
 
 ## **Deployment - Production**
 App is deployed and configured in `AWS ECS Fargate` cloud server. 
-[AWS Fargate Configuration] (https://github.com/cssamLabs/AWS-Fargate-Configuration/blob/main/README.md)
+[AWS Fargate Configuration](https://github.com/cssamLabs/AWS-Fargate-Configuration/blob/main/README.md )
 
 `Postman`.
 Get All - prod
