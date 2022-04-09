@@ -91,7 +91,7 @@ const dotenv = require("dotenv");
 
 Project database created in AWS RDS.
 
-[AWS RDS Configuration](https://github.com/cssamLabs/AWS-Configuration-RDS_Postgress/blob/main/README.md)
+[AWS RDS Configuration](https://github.com/cssamLabs/AWS-Configuration-RDS-Postgress/blob/main/README.md)
 
 
 ### **Project Setup**
