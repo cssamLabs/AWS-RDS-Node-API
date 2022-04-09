@@ -107,59 +107,6 @@ Package.json
 ![Package json](https://user-images.githubusercontent.com/6191308/161906482-43b38068-afcf-45a3-8d7e-efa340262363.png)
 
 <br>
-<br>
-
-### **App Security**
-
-<br>
-
-#### **Incoming call security**
-
-<br>
-
-This project uses JWT to detect incoming api calls authority. Visit https://jwt.io/ for details.
-`jsonwebtoken` library uses in app security controller `auth.controller.js`.
-
-```
-const jwt = require("jsonwebtoken");
-```
-
-When user get registered to the app, it will return JWT token back.
-
-This token need to send in all other api calls to the app. There are two ways app can verify incoming token.  
-The simple way is passing as a header parameter; `const token = req.headers["x-access-token"];` and it will be verified in
-
-```
-jwt.verify(token, config.jwt_secret, (err, decoded) => {
-```
-
-In this app we are using different approach.**`Passport`**! It descibes in below.
-
-#### **User verification**
-
-This project uses `Passport` library for user verification and session management. Visit http://www.passportjs.org/ for details. In app routes such as `auth.route.js` and `note.route.js` uses the library.
-
-```
-const passport = require("passport");
-
-```
-
-There are hundereds of stratergys implemented with `Passport`.  
-Using `passport`, `passport-jwt`, `passport-local` libraries app implemented with `local` and `jwt` stratergies in ` lib\passport\index.js`.
-
-```
-passport.use(new LocalStrategy(
-```
-
-and
-
-```
-passport.use(new JWTStrategy(
-```
-
-In addition to above, following libraries are uses to help app security as well.  
-`bcryptjs`, `cookie-parser`, `crypto`  
-<br>
 
 ### **CORS**
 
