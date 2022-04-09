@@ -42,27 +42,20 @@ PUT /urlshort
 to update existing urlshort
 ```
 
-
 ```
 DELETE /urlshort/{id}
 
 to delete existing urlshort
 ```
 
-
 <br>
-
 ## **Project Setup Guide**
-
 ---
-
 <br>
-
 ### **NodeJS Installation**
 
 Download and install Node.js from https://nodejs.org
 
-<br>
 <br>
 
 ### **Project Repo**
@@ -71,18 +64,14 @@ Download and install Node.js from https://nodejs.org
 <br>
 
 ## **Code Description**
-
 ---
-
 <br>
 
 ### **Development IDE**
 
 This project uses VSCODE with follwoing libraries.
 This project uses EditorConfig to standardize test editor configuration. Visit https://editorconfig.org for details.
-
 This project uses ESLint to detect suspicious code in Javascript files. Visit https://eslint.org for details.
-
 <br>
 
 ### **Project Configuration**
