@@ -101,14 +101,8 @@ const dotenv = require("dotenv");
 #### **Database**
 
 Project database created in AWS RDS.
-![rds-database-instance](https://user-images.githubusercontent.com/6191308/161145240-7a19fd98-2f5e-43f8-923f-b18f43608d8d.png)
 
-To Manage the database from local machine, added following to the Security Group Inbound Rules
-
-![Security Group Inbound](https://user-images.githubusercontent.com/6191308/161146161-97b031de-9ca7-4c1a-b186-601c55c75f7f.png)
-
-PGAdmin
-![pgAdmin](https://user-images.githubusercontent.com/6191308/161147653-4f1eecd1-0008-4f17-a302-8de364701503.png)
+[AWS RDS Configuration](https://github.com/cssamLabs/AWS-Configuration-RDS_Postgress/blob/main/README.md)
 
 
 ### **Project Setup**
