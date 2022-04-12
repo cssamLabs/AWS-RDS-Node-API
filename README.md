@@ -145,7 +145,7 @@ In the `model` folder, `Urlshort` models have implemented.
 This app uses `sequalize` Object Data Modeling library to define Documents of the app. Visit https://sequelize.org/ for details.
 
 
-### **Testing**
+### **Dev Tests**
 
 Here are screenshots of `Postman` testing for the project.
 
@@ -169,7 +169,11 @@ AWS Fargate Service and Application Load Balancer Configuration
 App is deployed and configured in `AWS ECS Fargate` cloud server. 
 [AWS Fargate Configuration](https://github.com/cssamLabs/AWS-Fargate-Configuration/blob/main/README.md )
 
-`Postman`.
+
+### **Prod Tests**
+
+Here are screenshots of `Postman` testing for the project.
+
 Get All - prod
 ![Fargate - Get All](https://user-images.githubusercontent.com/6191308/161905930-1b1fe40d-d3ef-4930-b191-7259400995bb.png)
 
